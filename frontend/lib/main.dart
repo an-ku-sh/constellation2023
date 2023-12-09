@@ -6,7 +6,7 @@ import 'package:frontend/home_page.dart';
 void main(List<String> args) async {
   WidgetsFlutterBinding.ensureInitialized;
   await Firebase.initializeApp(options: DefaultFirebaseOptions.web);
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
